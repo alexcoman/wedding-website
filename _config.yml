@@ -10,7 +10,7 @@ google-tracking-id: ""
 
 # Build Settings
 markdown: kramdown
-highlighter: none
+highlighter: rouge
 kramdown:
   input:            GFM
   auto_ids:         true
