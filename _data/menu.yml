@@ -1,0 +1,36 @@
+default:
+  - link: '#home'
+    title: 'Acasă'
+    scroll: true
+
+  - link: '#povestea-noastra'
+    title: 'Povestea Noastră'
+    scroll: true
+
+  - link: '#program'
+    title: 'Program'
+    scroll: true
+
+  - link: '#locatie'
+    title: 'Locație'
+    scroll: true
+
+  - link: '#dress-code'
+    title: 'Dress code'
+    scroll: true
+
+invitatie:
+  - link: '/'
+    title: 'Mai multe detalii'
+
+  - link: '#invitatie'
+    title: 'Invitație'
+    scroll: true
+
+  - link: '#program'
+    title: 'Program'
+    scroll: true
+
+  - link: '#locatie'
+    title: 'Locație'
+    scroll: true

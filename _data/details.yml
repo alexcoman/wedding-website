@@ -1,0 +1,52 @@
+---
+events:
+  - icon: 'icon-tie'
+    title: '<b>12:00</b> - Primirea invitaților'
+    position: 'left'
+    description: >
+      Începând cu ora <b>12:00</b> vă așteptăm la
+      <a href="https://goo.gl/maps/s1BSMDicTUJBEYLW9" target="_blank">
+      <i class="fas fa-map-marked-alt"></i>Cabana Bucium</a>
+      cu un pahar de Prosecco și multă voie bună.
+
+  - icon: 'icon-ciurclke'
+    title: '<b>13:00</b> - Ceremonie'
+    position: 'right'
+    description: >
+      La ora <b>13:00</b> va avea loc o ceremonie în aer liber, în care cei
+      doi miri vor avea ocazia să-și împărtășească gândurile cu prietenii și
+      familia despre aventura ce urmează să înceapă.
+
+  - icon: 'icon-camera'
+    title: '<b>13:30</b> - Toast & Fotografii'
+    position: 'left'
+    description: >
+     Ce-ar fi o ceremonie fără un toast cu ceva gustos și multe multe fotografii?
+     Din fericire noi nu vom afla.
+
+  - icon: 'icon-wine-glass'
+    title: '<b>14:00</b> - Petrecere'
+    position: 'right'
+    description: >
+      Aer curat, muzică bună, mâncare gustoasă, oameni frumoși și multă multă
+      voie bună.
+
+  - icon: 'icon-cake'
+    title: '<b>19:00</b> - Tort'
+    position: 'left'
+    description: >
+      După atâtea lucruri bune, și atâta dans ceva dulce-i necesar.
+
+  - icon: 'icon-wine-glass'
+    title: '<b>19:30</b> - Petrecerea continuă'
+    position: 'right'
+    description: >
+      Ca să nu interferăm cu regimul după ceva dulce mai trebuie o porție
+      de dans și-un pahar de ceva bun ca să ardem glucidele.
+
+  - icon: 'icon-home'
+    title: 'Ne pornim spre casă...'
+    position: 'left'
+    description: >
+      Legenda spune că după orice petrecere unii se duc acasă și alții sunt
+      conduși acasă. Oare din care categorii vei face parte?

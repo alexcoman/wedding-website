@@ -1,0 +1,62 @@
+---
+title: 'Povestea noastră'
+groom:
+  title: '- mirele -'
+  name: 'Alex Coman'
+  photo: '/assets/img/love_story/alex.jpg'
+  description: >
+    "I don't want to miss one smile<br>
+    I don't want to miss one kiss<br>
+    I just want to be with you<br>
+    Right here with you, just like this<br>
+    I just want to hold you close<br>
+    Feel your heart so close to mine<br>
+    And just stay here in this moment<br>
+    For all the rest of time"<br>
+    <a href="https://www.youtube.com/watch?v=JkK8g6FMEXE" target="_blank">
+      <i class="fab fa-youtube"></i> Aerosmith - I Don't Want to Miss a Thing
+    </a>
+  social:
+    facebook: 'https://www.facebook.com/alxcoman'
+    instagram: 'https://www.instagram.com/alex.fcoman/'
+
+bride:
+  title: '- mireasa -'
+  name: 'Teona Rusu'
+  photo: '/assets/img/love_story/teona.jpg'
+  description: >
+    "Trust I seek and I find in you<br>
+    Every day for us something new<br>
+    Open mind for a different view<br>
+    And nothing else matters<br>
+    Never cared for what they do<br>
+    Never cared for what they know<br>
+    But I know"<br>
+    <a href="https://www.youtube.com/watch?v=tAGnKpE4NCI" target="_blank">
+      <i class="fab fa-youtube"></i> Metallica - Nothing Else Matters
+    </a>
+  social:
+    facebook: 'https://www.facebook.com/teona.rusu'
+    instagram: 'https://www.instagram.com/teona.rusu'
+
+our_story:
+  - title: 'S-au văzut'
+    description: >
+      Prima întâlnire a fost o întâmplare, într-o seară de vară. Doi oameni,
+      aparent foarte diferiți, s-au cunoscut și s-au împrietenit. Nimeni
+      nu a crezut că peste un an, avea să fie ceva mai mult decât o simplă
+      prietenie.
+
+  - title: 'S-au îndrăgostit'
+    description: >
+      Anul a trecut, plin de peripeții pentru fiecare, dar s-au regăsit
+      unul în altul. Orice lucru complicat, a devenit simplu. Și așa,
+      au realizat că e momentul să ducă prietenia la următorul nivel. În
+      ultimii trei ani și jumătate s-au completat unul pe celălalt, s-au
+      bucurat de fiecare moment împreună, au călătorit și au hotărât
+      să-și petreacă toată viața împreună, cu bune și rele.
+
+  - title: 'Și acum se căsătoresc'
+    description: >
+      Timpul a trecut și au hotorât să oficieze povestea de dragoste,
+      alături de familie și prieteni.
