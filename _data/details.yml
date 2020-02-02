@@ -35,13 +35,13 @@ events:
     title: '<b>19:00</b> - Tort'
     position: 'left'
     description: >
-      După atâtea lucruri bune, și atâta dans ceva dulce-i necesar.
+      După atâtea lucruri bune și atâta dans ceva dulce-i necesar.
 
   - icon: 'icon-wine-glass'
     title: '<b>19:30</b> - Petrecerea continuă'
     position: 'right'
     description: >
-      Ca să nu interferăm cu regimul după ceva dulce mai trebuie o porție
+      Ca să nu interferăm cu regimul, după ceva dulce mai trebuie o porție
       de dans și-un pahar de ceva bun ca să ardem glucidele.
 
   - icon: 'icon-home'
@@ -49,4 +49,4 @@ events:
     position: 'left'
     description: >
       Legenda spune că după orice petrecere unii se duc acasă și alții sunt
-      conduși acasă. Oare din care categorii vei face parte?
+      conduși acasă. Oare din care categorie vei face parte?
