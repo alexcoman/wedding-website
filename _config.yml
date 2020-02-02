@@ -35,5 +35,3 @@ exclude:
   - LICENSE
   - .gitignore
   - .travis.yml
-
-theme: jekyll-theme-minimal
