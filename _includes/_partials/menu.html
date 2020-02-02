@@ -1,0 +1,9 @@
+{% if page.menu %}
+    {% assign menu_name = page.menu %}
+{% else %}
+    {% assign menu_name = 'default' %}
+{% endif %}
+{% assign menu = site.data.menu[menu_name] %}
+{% for element in menu %}
+    <li><a class="nav-link{% if element.scroll %} scroll{% endif %}" href="{{ element.link }}">{{ element.title }}</a></li>
+{% endfor %}

@@ -1,0 +1,30 @@
+{% assign data = site.data.program %}
+<div id="program" class="program_details_area">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="section_title text-center">
+          <img src="/assets/img/ornaments/flowers.png" alt="">
+          <h3>Program</h3>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      {% for event in data.program %}
+      <div class="col-xl-4 col-lg-4">
+        <div class="single_program {{ event.background }} text-center">
+          <div class="program_inner">
+            <span>{{ event.date }}</span>
+            <h3>{{ event.title }} </h3>
+            <p>{{ event.description }}</p>
+            <a href="{{ event.link }}" target="_blank">
+              <p><i class="fas fa-map-marked-alt"></i> {{ event.location }}</p>
+            </a>
+            <img src="assets/img/ornaments/ornaments.png" alt="">
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

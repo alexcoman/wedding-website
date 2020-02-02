@@ -1,0 +1,116 @@
+.details-area {
+    padding-bottom: 120px;
+}
+
+.wedding-details {
+  overflow: hidden;
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -.5px;
+    width: 1px;
+    background: #ccc;
+  }
+}
+
+.w-detail {
+  width: 50%;
+  padding: 0 50px;
+  margin-bottom: 30px;
+  position: relative;
+  clear: both;
+  margin-top: -40px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 18px;
+    width: 18px;
+    border-radius: 20px;
+    z-index: 1;
+    border: 1px solid #aaa;
+    background: #fff;
+  }
+
+  &.right {
+    text-align: left;
+    float: right;
+
+    &:after {
+      left: 0;
+      margin-left: -9px;
+    }
+  }
+
+  &.left {
+    text-align: right;
+    float: left;
+
+    &:after {
+      right: 0;
+      margin-right: -9px;
+    }
+  }
+
+  .title {
+    margin: 10px 0;
+  }
+
+  .icon {
+    font-size: 3.5em;
+    line-height: 1;
+    color: #C78665;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .wedding-details {
+    margin-left: 15px;
+    overflow: visible;
+
+    &:after {
+      left: 0;
+      margin-left: 0px;
+    }
+  }
+
+  .w-detail {
+    width: 100%;
+    padding: 0 0 0 30px;
+    margin: 0 0 30px;
+
+    &.left {
+      text-align: left;
+      float: none;
+    }
+
+    &.right {
+      text-align: left;
+      float: none;
+
+      &:after {
+        left: 0;
+        margin-left: -9px;
+      }
+    }
+
+    &.left:after {
+      left: 0;
+      margin-left: -9px;
+    }
+  }
+}

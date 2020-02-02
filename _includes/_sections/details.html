@@ -1,0 +1,28 @@
+{% assign data = site.data.details %}
+<section class="section details-area center-text">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="section_title text-center">
+          <img src="/assets/img/ornaments/flowers.png" alt="">
+          <h3>Mai multe detalii</h3>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+          <div class="wedding-details margin-bottom">
+            {% for event in data.events %}
+            <div class="w-detail {{ event.position }}">
+              <i class="icon {{ event.icon }}"></i>
+              <h4>{{ event.title }}</h4>
+              <p>{{ event.description }}</p>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,68 @@
+{% assign data = site.data.love_story %}
+<div id="povestea-noastra" class="love_story_area">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="section_title text-center">
+          <img src="/assets/img/ornaments/flowers.png" alt="">
+          <h3>{{ data.title }}</h3>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-4 col-md-6 col-lg-4">
+        <div class="single_lover_story text-center">
+          <div class="story_thumb">
+            <img class="rounded-circle img-thumbnail" src="{{ data.groom.photo | relative_url }}" alt="">
+          </div>
+          <h3>{{ data.groom.name }}</h3>
+          <p>{{ data.groom.description }}</p>
+          <div class="social_links">
+            <ul><li>
+              <a href="{{ data.groom.social.facebook }}" target="_blank">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="{{ data.groom.social.instagram }}" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li></ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4 col-md-6 col-lg-4">
+        <div class="weding_time_line text-center">
+          {% for event in data.our_story %}
+              <div class="single_time_line">
+                <h3>{{ event.title }}</h3>
+                {% if event.description %}
+                <p>{{ event.description }}</p>
+                {% endif %}
+              </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4">
+        <div class="single_lover_story text-center">
+          <div class="story_thumb">
+            <img class="rounded-circle img-thumbnail" src="/assets/img/love_story/teona.jpg" alt="">
+          </div>
+          <h3>{{ data.bride.name }}</h3>
+          <p>{{ data.bride.description }}</p>
+          <div class="social_links">
+            <ul><li>
+              <a href="{{ data.bride.social.facebook }}" target="_blank">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li><li>
+              <a href="{{ data.bride.social.instagram }}" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

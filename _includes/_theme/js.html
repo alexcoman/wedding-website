@@ -1,0 +1,43 @@
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+  crossorigin="anonymous"></script>
+<script
+  src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+  crossorigin="anonymous"></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+  integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE="
+  crossorigin="anonymous"></script>
+
+<script src="/assets/js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="/assets/js/jquery.counterup.min.js"></script>
+<script src="/assets/js/jquery.scrollUp.min.js"></script>
+<script src="/assets/js/jquery.countdown.min.js"></script>
+<script src="/assets/js/jquery.slicknav.min.js"></script>
+<script src="/assets/js/jquery.magnific-popup.min.js"></script>
+<script src="/assets/js/owl.carousel.min.js"></script>
+<script src="/assets/js/isotope.pkgd.min.js"></script>
+<script src="/assets/js/ajax-form.js"></script>
+<script src="/assets/js/imagesloaded.pkgd.min.js"></script>
+<script src="/assets/js/scrollIt.js"></script>
+<script src="/assets/js/wow.min.js"></script>
+<script src="/assets/js/nice-select.min.js"></script>
+<script src="/assets/js/gijgo.min.js"></script>
+<script src="/assets/js/plugins.js"></script>
+<script src="/assets/js/main.js"></script>
+
+{% if page.countdown_enabled %}
+<script>
+    $('#clock').countdown('2020/07/01', function (event) {
+        $(this).html(event.strftime(
+            '<div class="countdown_wrap d-flex"><div class="single_countdown"><h3>%D</h3><span>Zile</span></div><div class="single_countdown"><h3>%H</h3><span>Ore</span></div><div class="single_countdown"><h3>%M</h3><span>Minute</span></div><div class="single_countdown"><h3>%S</h3><span>Secunde</span></div></div>'
+        ));
+    });
+</script>
+{% endif %}
