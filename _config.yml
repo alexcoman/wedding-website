@@ -1,5 +1,5 @@
 # Site Settings
-url: "alex-teona.wedding"
+url: "teona-alex.wedding"
 baseurl: ""
 paginate_path: blog/pagina-:num/
 permalink: blog/:categories/:title/
