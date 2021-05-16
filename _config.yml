@@ -1,11 +1,8 @@
 # Site Settings
 url: "teona-alex.wedding"
 baseurl: ""
-paginate_path: blog/pagina-:num/
-permalink: blog/:categories/:title/
 force-https: True
 lang: "ro"
-paginate: 5
 google-tracking-id: ""
 
 # Build Settings
@@ -19,11 +16,6 @@ kramdown:
   toc_levels:       1..6
   enable_coderay:   false
   parse_block_html: true
-
-# Plugins
-plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
 
 exclude:
   - CONTRIBUTING
