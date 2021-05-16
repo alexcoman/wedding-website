@@ -5,3 +5,5 @@ source "https://rubygems.org" do
     gem "liquid-md5", "~> 0.0.3"
     gem "jemoji", "~> 0.11.1"
 end
+
+gem "webrick", "~> 1.7"
