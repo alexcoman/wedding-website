@@ -10,24 +10,26 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xl-4 col-md-6 col-lg-4">
+      <div class="col-xl-4 col-lg-4">
         <div class="single_lover_story text-center">
           <div class="story_thumb">
-            <img class="rounded-circle img-thumbnail" src="{{ data.groom.photo | relative_url }}" alt="">
+            <img class="rounded-circle img-thumbnail" src="/assets/img/love_story/teona.jpg" alt="">
           </div>
-          <h3>{{ data.groom.name }}</h3>
-          <p>{{ data.groom.description }}</p>
+          <h3>{{ data.bride.name }}</h3>
+          <p>{{ data.bride.description }}</p>
           <div class="social_links">
-            <ul><li>
-              <a href="{{ data.groom.social.facebook }}" target="_blank">
-                <i class="fab fa-facebook"></i>
-              </a>
-            </li>
-            <li>
-              <a href="{{ data.groom.social.instagram }}" target="_blank">
-                <i class="fab fa-instagram"></i>
-              </a>
-            </li></ul>
+            <ul>
+              <li>
+                <a href="{{ data.bride.social.facebook }}" target="_blank">
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="{{ data.bride.social.instagram }}" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -43,23 +45,26 @@
           {% endfor %}
         </div>
       </div>
-      <div class="col-xl-4 col-lg-4">
+      <div class="col-xl-4 col-md-6 col-lg-4">
         <div class="single_lover_story text-center">
           <div class="story_thumb">
-            <img class="rounded-circle img-thumbnail" src="/assets/img/love_story/teona.jpg" alt="">
+            <img class="rounded-circle img-thumbnail" src="{{ data.groom.photo | relative_url }}" alt="">
           </div>
-          <h3>{{ data.bride.name }}</h3>
-          <p>{{ data.bride.description }}</p>
+          <h3>{{ data.groom.name }}</h3>
+          <p>{{ data.groom.description }}</p>
           <div class="social_links">
-            <ul><li>
-              <a href="{{ data.bride.social.facebook }}" target="_blank">
-                <i class="fab fa-facebook"></i>
-              </a>
-            </li><li>
-              <a href="{{ data.bride.social.instagram }}" target="_blank">
-                <i class="fab fa-instagram"></i>
-              </a>
-            </li></ul>
+            <ul>
+              <li>
+                <a href="{{ data.groom.social.facebook }}" target="_blank">
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="{{ data.groom.social.instagram }}" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
